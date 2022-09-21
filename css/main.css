@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    background-color: lightgray;
+}
+
+td {
+    font-size: larger;
+}
+
+.new {
+    height: 80px;
+    width: 150px;
+    font-size: larger;
+    border-radius: 5px;
+    border: none;
+    background-color: pink;
+    cursor: pointer;
+}
+
+.container .btn {
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: pink;
+    cursor: pointer;
+}
+
+.timer {
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 100px;
+    background-color: rgb(245, 239, 240);
+    margin-left: 45%;
+    margin-right: 45%;
+    padding-top: 10px;
+    font-size:medium
+
+}
+
+.next-num {
+    margin-top: 20px;
+    height: 100px;
+    background-color: pink;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding-top: 10px;
+    font-size: larger;
+}
+
+table {
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.board {
+    height: 500px;
+    width: 50px;
+    cursor: pointer;
+    background-color: pink;
+
+
+}
+
+.clicked {
+    background-color: yellow;
+}

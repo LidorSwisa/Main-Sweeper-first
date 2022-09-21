@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch the Nums!</title>
+    <!-- <link rel="shortcut icon" href="favicon.png" type="image/x-icon"> -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="initGame()">
+    <button class="new" onclick="initGame()">Mine Sweeper</button>
+    <div class="container">
+        <button class="btn" onclick="initGame()">Easy</button>
+        <button class="btn" onclick="initGame(25)">Hard</button>
+        <button class="btn" onclick="initGame(36)">Extreme</button>
+        <!-- <button class="btn" onclick="()">Easy</button> -->
+    </div>
+    <div class="timer">Game Time:</div>
+
+    <!-- <div class="next-num">Your next number: <span></span></div> -->
+    <table border="1" cellpadding="80">
+        <tbody class="board"></tbody>
+    </table>
+
+    <script src="js/main.js"></script>
+    <script src="js/utils.js"></script>
+
+</body>
+
+</html>
